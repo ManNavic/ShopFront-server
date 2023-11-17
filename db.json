@@ -1,9 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "subscribers": [
+    {
+      "subscriber": "test-user@email.com",
+      "id": 1
+    },
+    {
+      "subscriber": "sarajbeazley@gmail.com",
+      "id": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$0MTppZJ8ByFi0YcdWu5MQOmMxUeCADsw52lQJjSHkqin1Ift7oLFu",
+      "username": "user",
+      "id": 1
+    }
+  ]
 }
