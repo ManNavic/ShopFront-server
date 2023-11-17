@@ -22,7 +22,8 @@ server.use(
   jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id',
-    '/login': '/login'
+    '/login': '/login',
+    '/users': '/users'
   })
 )
 server.use(router)
